@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057EAE450561548327DE2FD344363B4D /* LJMWX in Sources */ = {isa = PBXBuildFile; fileRef = B6EF7BB315E7416078BAFA98AC85CC62 /* LJMWX */; };
+		07A3863446CB9CA50904E3F9263C8A33 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA8B94229F1EE6D705EDBE94EA2AEAA /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269E73E46D82BC7384D67DE73544E3C1 /* Pods-LJMWXAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906A729BF2B6B3333E750FFA15765359 /* Pods-LJMWXAPI_Tests-dummy.m */; };
+		3D61543D8B1B1CF5AB57CF35DB691BCD /* LJMWXAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BED67B6A5CC8C740183ABBCB757EA /* LJMWXAPI-dummy.m */; };
+		47EC0429183DE71751CECE203A24E531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5138F37EE08F01DEC6541FF06D8F806B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7613B6C10326AEEBE28F57EB8B8B68E0 /* Pods-LJMWXAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 752A912EB5A4E5A22D6766E439AE3090 /* Pods-LJMWXAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8387733808C1835994E328149C54A69F /* LJMWX.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0381AD88738C2BAED64992EF628158 /* LJMWX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C9A058271EC9D7AE33FEBACFDC2778 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 61776AD984AC3150B4D4ADFFDF4C0EC1 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98548E4C6521EC31D75ECA778D8F9C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5B82ED743AEE17BCDCA63BD41AEA3E7 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 0D58ED07276494B7284885D94E8D5C89 /* module.modulemap */; };
+		B856804BED3CE211BEDFC41A0CD13E93 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8C832503F0AE8DF6A64FD4DC2FD24A18 /* Info.plist */; };
+		C8E298C1261D4C4FB8EA5EB4F984D609 /* Pods-LJMWXAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046ACC363327594782B34FF344ACEE1D /* Pods-LJMWXAPI_Example-dummy.m */; };
+		CDE79078FE586376DCFE0C61BE566085 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEC350B941E839BF485FB274C8862AE /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C4F050E3C87ABB0506668BD90927C0 /* LJMWXAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B6018EB18F58BF63620ECFBBF44F47 /* LJMWXAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E291F8304F8E76FD9C89D9178A6BEDDB /* Pods-LJMWXAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D0C45D310143DBD9409C3B5F2D2895 /* Pods-LJMWXAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57686FCC1DE09388E1403B970A48EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F91DD4705CFC1E9FDF2D8E174F22E2;
+			remoteInfo = "Pods-LJMWXAPI_Example";
+		};
+		C3AEB23992D0B42DD490A93C00CB6EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56BF7037EE960ECB24440F247C80F3A;
+			remoteInfo = LJMWXAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A8C8EA3CF3E0D9D4B30DB64FC42CB0 /* Pods-LJMWXAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJMWXAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		046ACC363327594782B34FF344ACEE1D /* Pods-LJMWXAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJMWXAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		047C32175D24CA3BF23467256614A8F6 /* Pods_LJMWXAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LJMWXAPI_Example.framework; path = "Pods-LJMWXAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEC350B941E839BF485FB274C8862AE /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		0D58ED07276494B7284885D94E8D5C89 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		0E7E008439EDC5190373B7AAD165AFA0 /* Pods-LJMWXAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJMWXAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		124B29C55895B77A0C9D9D8E20E89685 /* Pods-LJMWXAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJMWXAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21C5B3EDB0626F8F9C42E93A0859B6F7 /* LJMWXAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJMWXAPI-prefix.pch"; sourceTree = "<group>"; };
+		32D0C45D310143DBD9409C3B5F2D2895 /* Pods-LJMWXAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LJMWXAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4967E1B042B664A78E71D7108E9F826D /* Pods-LJMWXAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJMWXAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C7AD2616C9605A0C51B1E40CC16A4C8 /* Pods-LJMWXAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJMWXAPI_Tests-resources.sh"; sourceTree = "<group>"; };
+		4D1F228346B1A51B7D3C1F081F93C767 /* Pods-LJMWXAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJMWXAPI_Example.modulemap"; sourceTree = "<group>"; };
+		51264E551C426C2C889EE1BB001F0B60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534B0339A33D1C3F44A72E336C34307B /* Pods-LJMWXAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJMWXAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A62C4449E010488C00B4EF58778CFE8 /* LJMWXAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LJMWXAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D9926D16C6EE14A65C21EB6D5FBCA68 /* Pods-LJMWXAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJMWXAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		61776AD984AC3150B4D4ADFFDF4C0EC1 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		64B6018EB18F58BF63620ECFBBF44F47 /* LJMWXAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJMWXAPI-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C397CCA548BE1BFE5D7BBAEBE908D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		752A912EB5A4E5A22D6766E439AE3090 /* Pods-LJMWXAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LJMWXAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		7D474AA296F51E016211FC3B36D8CA23 /* LJMWXAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LJMWXAPI.xcconfig; sourceTree = "<group>"; };
+		88CF36785921899B7F45DCC5258B9328 /* Pods-LJMWXAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJMWXAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		88D6B968F84E7E97231966CA40BB0E78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C832503F0AE8DF6A64FD4DC2FD24A18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = LJMWXAPI/Classes/LJMWX.framework/Info.plist; sourceTree = "<group>"; };
+		8FA8B94229F1EE6D705EDBE94EA2AEAA /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		906A729BF2B6B3333E750FFA15765359 /* Pods-LJMWXAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJMWXAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0381AD88738C2BAED64992EF628158 /* LJMWX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LJMWX.h; sourceTree = "<group>"; };
+		B6EF7BB315E7416078BAFA98AC85CC62 /* LJMWX */ = {isa = PBXFileReference; includeInIndex = 1; name = LJMWX; path = LJMWXAPI/Classes/LJMWX.framework/LJMWX; sourceTree = "<group>"; };
+		B7E756B258E032EA3D4CD1D6FB751B7B /* Pods-LJMWXAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJMWXAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA60C5D41E33E2439D447FB9A756F18D /* Pods_LJMWXAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LJMWXAPI_Tests.framework; path = "Pods-LJMWXAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FA34E38D9116174FEA978884AC013 /* Pods-LJMWXAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJMWXAPI_Example-resources.sh"; sourceTree = "<group>"; };
+		BFC196034EC8E741B667488B38A27D36 /* LJMWXAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LJMWXAPI.modulemap; sourceTree = "<group>"; };
+		C67BED67B6A5CC8C740183ABBCB757EA /* LJMWXAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LJMWXAPI-dummy.m"; sourceTree = "<group>"; };
+		C6DCCC3B2C2DF736C14D0607DD066AE2 /* Pods-LJMWXAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJMWXAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7D16D7DB312561578CCF18127FDA246 /* Pods-LJMWXAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJMWXAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEE0FC4A470414CD8903A131709A6481 /* Pods-LJMWXAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJMWXAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D41839685B9A78C93B669CB88CC6D0AA /* LJMWXAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LJMWXAPI.framework; path = LJMWXAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A817CB769DDD51131B53D13F875823 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F7755512174AE82B6F41C51CEA269C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3591267631058FB46B2CCABB974500AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5138F37EE08F01DEC6541FF06D8F806B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ADC4607491C760D17FE6359CA068FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98548E4C6521EC31D75ECA778D8F9C7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA85F3ADB0D49B25B769B3A9A2AE0908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EC0429183DE71751CECE203A24E531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053D55BE8A2D15397B4C2EF6F97BF23B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0D58ED07276494B7284885D94E8D5C89 /* module.modulemap */,
+			);
+			name = Modules;
+			path = LJMWXAPI/Classes/LJMWX.framework/Modules;
+			sourceTree = "<group>";
+		};
+		46A0362E16E3343D8261A99421D3993E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F90C74918D771D3F1452264F202A8DD7 /* LJMWXAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		65CFAB843933306910857FA641637525 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9E0381AD88738C2BAED64992EF628158 /* LJMWX.h */,
+				0CEC350B941E839BF485FB274C8862AE /* WechatAuthSDK.h */,
+				61776AD984AC3150B4D4ADFFDF4C0EC1 /* WXApi.h */,
+				8FA8B94229F1EE6D705EDBE94EA2AEAA /* WXApiObject.h */,
+			);
+			name = Headers;
+			path = LJMWXAPI/Classes/LJMWX.framework/Headers;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				46A0362E16E3343D8261A99421D3993E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DAF04815AB7991A9B4FB5F9752855E33 /* Products */,
+				F29FB3F53EC60C059B4AAD0CFA11CD4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF65FDA1A3DA738F3467BADD5875673 /* Pods-LJMWXAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A817CB769DDD51131B53D13F875823 /* Info.plist */,
+				0E7E008439EDC5190373B7AAD165AFA0 /* Pods-LJMWXAPI_Tests.modulemap */,
+				C6DCCC3B2C2DF736C14D0607DD066AE2 /* Pods-LJMWXAPI_Tests-acknowledgements.markdown */,
+				534B0339A33D1C3F44A72E336C34307B /* Pods-LJMWXAPI_Tests-acknowledgements.plist */,
+				906A729BF2B6B3333E750FFA15765359 /* Pods-LJMWXAPI_Tests-dummy.m */,
+				5D9926D16C6EE14A65C21EB6D5FBCA68 /* Pods-LJMWXAPI_Tests-frameworks.sh */,
+				4C7AD2616C9605A0C51B1E40CC16A4C8 /* Pods-LJMWXAPI_Tests-resources.sh */,
+				32D0C45D310143DBD9409C3B5F2D2895 /* Pods-LJMWXAPI_Tests-umbrella.h */,
+				B7E756B258E032EA3D4CD1D6FB751B7B /* Pods-LJMWXAPI_Tests.debug.xcconfig */,
+				CEE0FC4A470414CD8903A131709A6481 /* Pods-LJMWXAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-LJMWXAPI_Tests";
+			path = "Target Support Files/Pods-LJMWXAPI_Tests";
+			sourceTree = "<group>";
+		};
+		9C9AADADF79313C2DB39EBF9B70AFD33 /* Pods-LJMWXAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88D6B968F84E7E97231966CA40BB0E78 /* Info.plist */,
+				4D1F228346B1A51B7D3C1F081F93C767 /* Pods-LJMWXAPI_Example.modulemap */,
+				124B29C55895B77A0C9D9D8E20E89685 /* Pods-LJMWXAPI_Example-acknowledgements.markdown */,
+				C7D16D7DB312561578CCF18127FDA246 /* Pods-LJMWXAPI_Example-acknowledgements.plist */,
+				046ACC363327594782B34FF344ACEE1D /* Pods-LJMWXAPI_Example-dummy.m */,
+				88CF36785921899B7F45DCC5258B9328 /* Pods-LJMWXAPI_Example-frameworks.sh */,
+				BA6FA34E38D9116174FEA978884AC013 /* Pods-LJMWXAPI_Example-resources.sh */,
+				752A912EB5A4E5A22D6766E439AE3090 /* Pods-LJMWXAPI_Example-umbrella.h */,
+				01A8C8EA3CF3E0D9D4B30DB64FC42CB0 /* Pods-LJMWXAPI_Example.debug.xcconfig */,
+				4967E1B042B664A78E71D7108E9F826D /* Pods-LJMWXAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-LJMWXAPI_Example";
+			path = "Target Support Files/Pods-LJMWXAPI_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA52CB876DA63C6F5C7D4CEB1AEE796F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51264E551C426C2C889EE1BB001F0B60 /* Info.plist */,
+				BFC196034EC8E741B667488B38A27D36 /* LJMWXAPI.modulemap */,
+				7D474AA296F51E016211FC3B36D8CA23 /* LJMWXAPI.xcconfig */,
+				C67BED67B6A5CC8C740183ABBCB757EA /* LJMWXAPI-dummy.m */,
+				21C5B3EDB0626F8F9C42E93A0859B6F7 /* LJMWXAPI-prefix.pch */,
+				64B6018EB18F58BF63620ECFBBF44F47 /* LJMWXAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LJMWXAPI";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAF04815AB7991A9B4FB5F9752855E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41839685B9A78C93B669CB88CC6D0AA /* LJMWXAPI.framework */,
+				047C32175D24CA3BF23467256614A8F6 /* Pods_LJMWXAPI_Example.framework */,
+				BA60C5D41E33E2439D447FB9A756F18D /* Pods_LJMWXAPI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E308CABD94F77752872A814AEC669E00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73C397CCA548BE1BFE5D7BBAEBE908D5 /* LICENSE */,
+				5A62C4449E010488C00B4EF58778CFE8 /* LJMWXAPI.podspec */,
+				F8F7755512174AE82B6F41C51CEA269C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F29FB3F53EC60C059B4AAD0CFA11CD4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AADADF79313C2DB39EBF9B70AFD33 /* Pods-LJMWXAPI_Example */,
+				9AF65FDA1A3DA738F3467BADD5875673 /* Pods-LJMWXAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F90C74918D771D3F1452264F202A8DD7 /* LJMWXAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8C832503F0AE8DF6A64FD4DC2FD24A18 /* Info.plist */,
+				B6EF7BB315E7416078BAFA98AC85CC62 /* LJMWX */,
+				65CFAB843933306910857FA641637525 /* Headers */,
+				053D55BE8A2D15397B4C2EF6F97BF23B /* Modules */,
+				E308CABD94F77752872A814AEC669E00 /* Pod */,
+				CA52CB876DA63C6F5C7D4CEB1AEE796F /* Support Files */,
+			);
+			name = LJMWXAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13DE63C03CEB3D09408502FCAE450558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291F8304F8E76FD9C89D9178A6BEDDB /* Pods-LJMWXAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB880E5CB53253B48F89A5AE7980E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7613B6C10326AEEBE28F57EB8B8B68E0 /* Pods-LJMWXAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C734317FE77D8679C4084AC997AB2109 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387733808C1835994E328149C54A69F /* LJMWX.h in Headers */,
+				D3C4F050E3C87ABB0506668BD90927C0 /* LJMWXAPI-umbrella.h in Headers */,
+				CDE79078FE586376DCFE0C61BE566085 /* WechatAuthSDK.h in Headers */,
+				91C9A058271EC9D7AE33FEBACFDC2778 /* WXApi.h in Headers */,
+				07A3863446CB9CA50904E3F9263C8A33 /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9ABD329138139E50A061B78D12D72712 /* Pods-LJMWXAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B9359D05B0A924D0FDE0AA898802DE /* Build configuration list for PBXNativeTarget "Pods-LJMWXAPI_Tests" */;
+			buildPhases = (
+				F72EBA60ED812B481B2F8BD954B4F292 /* Sources */,
+				EA85F3ADB0D49B25B769B3A9A2AE0908 /* Frameworks */,
+				13DE63C03CEB3D09408502FCAE450558 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119F22688EF0C131BE0FFBD48F9DAE5A /* PBXTargetDependency */,
+			);
+			name = "Pods-LJMWXAPI_Tests";
+			productName = "Pods-LJMWXAPI_Tests";
+			productReference = BA60C5D41E33E2439D447FB9A756F18D /* Pods_LJMWXAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A56BF7037EE960ECB24440F247C80F3A /* LJMWXAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BF4C7292641A0FE723BC36F7FCFDD6 /* Build configuration list for PBXNativeTarget "LJMWXAPI" */;
+			buildPhases = (
+				604043F3D5836010645BAEA539D93B0A /* Sources */,
+				3591267631058FB46B2CCABB974500AE /* Frameworks */,
+				C734317FE77D8679C4084AC997AB2109 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJMWXAPI;
+			productName = LJMWXAPI;
+			productReference = D41839685B9A78C93B669CB88CC6D0AA /* LJMWXAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3F91DD4705CFC1E9FDF2D8E174F22E2 /* Pods-LJMWXAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8038ADC014C1E89E07509A8AFEC9A0 /* Build configuration list for PBXNativeTarget "Pods-LJMWXAPI_Example" */;
+			buildPhases = (
+				913D5C037562D1646A042A623DA535FF /* Sources */,
+				99ADC4607491C760D17FE6359CA068FA /* Frameworks */,
+				46AB880E5CB53253B48F89A5AE7980E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21FF155FD0F53A7BD9E0A89A7923FC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LJMWXAPI_Example";
+			productName = "Pods-LJMWXAPI_Example";
+			productReference = 047C32175D24CA3BF23467256614A8F6 /* Pods_LJMWXAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DAF04815AB7991A9B4FB5F9752855E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56BF7037EE960ECB24440F247C80F3A /* LJMWXAPI */,
+				D3F91DD4705CFC1E9FDF2D8E174F22E2 /* Pods-LJMWXAPI_Example */,
+				9ABD329138139E50A061B78D12D72712 /* Pods-LJMWXAPI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604043F3D5836010645BAEA539D93B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B856804BED3CE211BEDFC41A0CD13E93 /* Info.plist in Sources */,
+				057EAE450561548327DE2FD344363B4D /* LJMWX in Sources */,
+				3D61543D8B1B1CF5AB57CF35DB691BCD /* LJMWXAPI-dummy.m in Sources */,
+				B5B82ED743AEE17BCDCA63BD41AEA3E7 /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913D5C037562D1646A042A623DA535FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E298C1261D4C4FB8EA5EB4F984D609 /* Pods-LJMWXAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72EBA60ED812B481B2F8BD954B4F292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E73E46D82BC7384D67DE73544E3C1 /* Pods-LJMWXAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		119F22688EF0C131BE0FFBD48F9DAE5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LJMWXAPI_Example";
+			target = D3F91DD4705CFC1E9FDF2D8E174F22E2 /* Pods-LJMWXAPI_Example */;
+			targetProxy = A57686FCC1DE09388E1403B970A48EE2 /* PBXContainerItemProxy */;
+		};
+		F21FF155FD0F53A7BD9E0A89A7923FC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LJMWXAPI;
+			target = A56BF7037EE960ECB24440F247C80F3A /* LJMWXAPI */;
+			targetProxy = C3AEB23992D0B42DD490A93C00CB6EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26806B98DA4B90AA3C6469B688988816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A8C8EA3CF3E0D9D4B30DB64FC42CB0 /* Pods-LJMWXAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LJMWXAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LJMWXAPI_Example/Pods-LJMWXAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30DF9232D4BCD198C365A21B2A6FBD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4967E1B042B664A78E71D7108E9F826D /* Pods-LJMWXAPI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LJMWXAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LJMWXAPI_Example/Pods-LJMWXAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB076BF251C449F018E6AFA521396821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D474AA296F51E016211FC3B36D8CA23 /* LJMWXAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LJMWXAPI/LJMWXAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LJMWXAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LJMWXAPI/LJMWXAPI.modulemap";
+				PRODUCT_MODULE_NAME = LJMWXAPI;
+				PRODUCT_NAME = LJMWXAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEB6187286B64859BD6431CCC0483455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E756B258E032EA3D4CD1D6FB751B7B /* Pods-LJMWXAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LJMWXAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LJMWXAPI_Tests/Pods-LJMWXAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E82CE747ABEA13392A0BDF01A2F7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE0FC4A470414CD8903A131709A6481 /* Pods-LJMWXAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LJMWXAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LJMWXAPI_Tests/Pods-LJMWXAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E00A864C09EBA7E20323587A03123936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D474AA296F51E016211FC3B36D8CA23 /* LJMWXAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LJMWXAPI/LJMWXAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LJMWXAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LJMWXAPI/LJMWXAPI.modulemap";
+				PRODUCT_MODULE_NAME = LJMWXAPI;
+				PRODUCT_NAME = LJMWXAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BF4C7292641A0FE723BC36F7FCFDD6 /* Build configuration list for PBXNativeTarget "LJMWXAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB076BF251C449F018E6AFA521396821 /* Debug */,
+				E00A864C09EBA7E20323587A03123936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8038ADC014C1E89E07509A8AFEC9A0 /* Build configuration list for PBXNativeTarget "Pods-LJMWXAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26806B98DA4B90AA3C6469B688988816 /* Debug */,
+				30DF9232D4BCD198C365A21B2A6FBD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B9359D05B0A924D0FDE0AA898802DE /* Build configuration list for PBXNativeTarget "Pods-LJMWXAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB6187286B64859BD6431CCC0483455 /* Debug */,
+				C3E82CE747ABEA13392A0BDF01A2F7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

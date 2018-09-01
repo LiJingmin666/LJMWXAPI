@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		095AC1565902A640762C6683 /* Pods_LJMWXAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJMWXAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		141E6D5B54823A4AAD3C435A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		455930D39A847501DF01CA96 /* LJMWXAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LJMWXAPI.podspec; path = ../LJMWXAPI.podspec; sourceTree = "<group>"; };
+		141E6D5B54823A4AAD3C435A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		455930D39A847501DF01CA96 /* LJMWXAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJMWXAPI.podspec; path = ../LJMWXAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D01D7D87C77742C8A21FC6D /* Pods-LJMWXAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJMWXAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJMWXAPI_Tests/Pods-LJMWXAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LJMWXAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMWXAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CEA065E3AB1691230193515 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9CEA065E3AB1691230193515 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A222E42F30AD4D346A225AD7 /* Pods-LJMWXAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJMWXAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJMWXAPI_Example/Pods-LJMWXAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BAB870C964BD37D8CC85F28C /* Pods-LJMWXAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJMWXAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJMWXAPI_Example/Pods-LJMWXAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C5BC34725CC3587BBCB179C4 /* Pods_LJMWXAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJMWXAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };

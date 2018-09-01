@@ -1,0 +1,6 @@
+framework module Pods_LJMWXAPI_Example {
+  umbrella header "Pods-LJMWXAPI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

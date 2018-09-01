@@ -1,0 +1,6 @@
+framework module LJMWX {
+  umbrella header "LJMWX.h"
+
+  export *
+  module * { export * }
+}
