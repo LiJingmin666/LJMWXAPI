@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJMWXAPI'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of LJMWXAPI.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.vendored_frameworks = 'LJMWXAPI/Classes/LJMWXAPI.framework'
+  s.vendored_frameworks = 'LJMWXAPI/Classes/LJMWX.framework'
   
   # s.resource_bundles = {
   #   'LJMWXAPI' => ['LJMWXAPI/Assets/*.png']
