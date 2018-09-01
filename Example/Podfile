@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJMWXAPI_Example' do
+  pod 'LJMWXAPI', :path => '../'
+
+  target 'LJMWXAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
